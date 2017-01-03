@@ -82,3 +82,5 @@ Enable the debug level log in file `/etc/ssh/sshd_config` with below change. You
 LogLevel DEBUG3
 ```
 Check the log from `/var/log/auth.log` or `/var/log/secure` on new Jenkins linux slave
+* How To Fix "Server refused our key" Error in CentOS 6   
+Refer to [link](https://adamwright.wordpress.com/2013/04/15/how-to-fix-server-refused-our-key-error-in-centos-6/), try below command `restorecon -R -v /home/jenkins/.ssh`
