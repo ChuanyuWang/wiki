@@ -76,7 +76,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCowagvhV6nP3XYuF05MQqZ2PnSTGHSm4Q3TMiPi4H4
 * Click "Save" again to create a node
 
 # Troubleshooting
-* How to trouble shoot when it still goes wrong
+* How to trouble shoot when it still goes wrong?   
 Enable the debug level log in file `/etc/ssh/sshd_config` with below change. You may need to restart sshd service to apply setting change.
 ```
 LogLevel DEBUG3
