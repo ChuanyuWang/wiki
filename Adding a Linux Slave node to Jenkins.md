@@ -4,6 +4,7 @@
 
 # Steps
 ## Generating an SSH key
+Create a new SSH key if it's not existed on Jenkins master
 ### On Windows with PuTTYgen
 * Open PuTTYgen and click "Generate" button with key type "SSH-2 RSA", download the public and private key files to local disk.
 
@@ -27,6 +28,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAjHnf5dRJPCIADtGBSUR5kM5xCC+3vttHjsMekIzmKt0p
 ```
 
 ## Add Credential in Jenkins master
+Create a new Credential for "jenkins" user it's not existed on Jenkins master
 * Login Jeknins as "admin" role
 * Click "Manage Jenkins" and add a new credential
 * Select "SSH Username with private key" kind
@@ -34,7 +36,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAjHnf5dRJPCIADtGBSUR5kM5xCC+3vttHjsMekIzmKt0p
 * Enter username (in our case, "jenkins")
 * Provide Private key, Input the private key (from above step) directly or select option "From the Jenkins master ~/.ssh"
 * If your key has a passphrase, press "Advanced" and type in the passphrase
-* Press Save to close the dialog, and choose your new credential in the list
+* Press Save to create new credential
 
 ## Create jenkins user on new slave server
 Create a new user named as "jenkins" if it's not existed on Linux node, Use command "useradd" or "adduser" in Linux and other Unix-like operating systems, and set a non-empty password to unlock the user.
@@ -72,3 +74,11 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCowagvhV6nP3XYuF05MQqZ2PnSTGHSm4Q3TMiPi4H4
 * Below the Launch method drop-down, enter the slave's IP address in "Host"
 * Choose the credential of "jenkins" user created in above step on Jenkins master
 * click "Save" again to create a node
+
+# Troubleshooting
+* How to trouble shoot when it still goes wrong
+Enable the debug level log in file `/etc/ssh/sshd_config` with below change. You may need to restart sshd service to apply setting change.
+```
+LogLevel DEBUG3
+```
+Check the log from `/var/log/auth.log` or `/var/log/secure` on new Jenkins linux slave
