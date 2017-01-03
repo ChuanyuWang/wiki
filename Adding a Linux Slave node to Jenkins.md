@@ -28,7 +28,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAjHnf5dRJPCIADtGBSUR5kM5xCC+3vttHjsMekIzmKt0p
 ```
 
 ## Add Credential in Jenkins master
-Create a new Credential for "jenkins" user it's not existed on Jenkins master
+Create a new Credential for "jenkins" user if it's not existed on Jenkins master
 * Login Jeknins as "admin" role
 * Click "Manage Jenkins" and add a new credential
 * Select "SSH Username with private key" kind
