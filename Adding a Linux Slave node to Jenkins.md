@@ -39,7 +39,7 @@ Create a new Credential for "jenkins" user it's not existed on Jenkins master
 * Press Save to create new credential
 
 ## Create jenkins user on new slave server
-Create a new user named as "jenkins" if it's not existed on Linux node, Use command "useradd" or "adduser" in Linux and other Unix-like operating systems, and set a non-empty password to unlock the user.
+Create a new user named as "jenkins" if it's not existed on Linux node, Use command `useradd` or `adduser` in Linux and other Unix-like operating systems, and set a non-empty password to unlock the user.
 ```
 useradd jenkins
 passwd jenkins
@@ -73,7 +73,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCowagvhV6nP3XYuF05MQqZ2PnSTGHSm4Q3TMiPi4H4
 * Make sure Usage is set to "Only build jobs with label restrictions matching this node", and Launch method is set to "Launch slave agents on Unix machines via SSH"
 * Below the Launch method drop-down, enter the slave's IP address in "Host"
 * Choose the credential of "jenkins" user created in above step on Jenkins master
-* click "Save" again to create a node
+* Click "Save" again to create a node
 
 # Troubleshooting
 * How to trouble shoot when it still goes wrong
