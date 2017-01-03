@@ -45,3 +45,4 @@ db.createUser(
 
 # References
 * [Enable Auth](https://docs.mongodb.com/manual/tutorial/enable-authentication/)
+* [Built-In roles](https://docs.mongodb.com/manual/reference/built-in-roles/)
