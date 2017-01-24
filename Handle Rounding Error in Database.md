@@ -1,3 +1,5 @@
+> Best answer from http://stackoverflow.com/questions/11541939/mongodb-what-about-decimal-type-of-value
+
 If you want an exact representation for financial purposes, then doubles or floating point values are unsuitable as the fractional parts are subject to rounding error. Certain decimal values cannot not be represented using binary-based floating points and must be approximated.
 
 For a less technical intro, see [The trouble with rounding floating point numbers](http://www.theregister.co.uk/2006/08/12/floating_point_approximation/); if you want to geek out, then read [What Every Computer Scientist Should Know About Floating-Point Arithmetic](http://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html).
