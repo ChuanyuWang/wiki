@@ -1,2 +1,4 @@
 - [RESTful API 设计指南](http://www.ruanyifeng.com/blog/2014/05/restful_api.html)
 - [理解OAuth 2.0](http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html)
+- [Setting language preferences in a browser](https://www.w3.org/International/questions/qa-lang-priorities.en)
+- [Best Practices for Designing a Pragmatic RESTful API](http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api) | [Chinese version](http://blog.jobbole.com/41233/)
