@@ -5,6 +5,5 @@
 
 - [RESTful API 设计指南](http://www.ruanyifeng.com/blog/2014/05/restful_api.html)
 - [理解RESTful架构](http://www.ruanyifeng.com/blog/2011/09/restful.html)
-- [Setting language preferences in a browser](https://www.w3.org/International/questions/qa-lang-priorities.en)
 - [Best Practices for Designing a Pragmatic RESTful API](http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api) | [Chinese version](http://blog.jobbole.com/41233/)
 - [Versioning REST Services](http://www.informit.com/articles/article.aspx?p=1566460)
