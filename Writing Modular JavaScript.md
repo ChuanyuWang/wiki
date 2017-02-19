@@ -4,3 +4,4 @@
 
 #### Tools
 - [Duo - A next-generation package manager for the front-end](http://duojs.org/)
+- [Browserify - bundling up all of your dependencies](http://browserify.org/)
