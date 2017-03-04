@@ -1,5 +1,9 @@
 [Grunt home page](http://gruntjs.com/)
 
+#### Guide
+- [Grunt for People Who Think Things Like Grunt are Weird and Hard](https://24ways.org/2013/grunt-is-not-weird-and-hard/)
+- [Supercharging your Gruntfile](https://www.html5rocks.com/en/tutorials/tooling/supercharging-your-gruntfile/)
+
 #### Must know Grunt plugins
 - Run a Node.js application for development, with support for auto-reload | [grunt-develop](https://www.npmjs.com/package/grunt-develop)
 - Grunt task for running an Express Server that works great with LiveReload + Watch/Regarde | [grunt-express-server](https://www.npmjs.com/package/grunt-express-server)
