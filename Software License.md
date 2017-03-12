@@ -1,0 +1,2 @@
+- [license generator](https://www.binpress.com/license/generator)
+  - E.g. https://www.binpress.com/license/view/l/4cee4011d24076ef1280b87aae9584c9
