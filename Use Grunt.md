@@ -5,6 +5,7 @@
 - [Supercharging your Gruntfile](https://www.html5rocks.com/en/tutorials/tooling/supercharging-your-gruntfile/)
 
 #### Must know Grunt plugins
+- Minify JavaScript files with UglifyJS | [grunt-contrib-uglify](https://www.npmjs.com/package/grunt-contrib-uglify)
 - Run a Node.js application for development, with support for auto-reload | [grunt-develop](https://www.npmjs.com/package/grunt-develop)
 - Grunt task for running an Express Server that works great with LiveReload + Watch/Regarde | [grunt-express-server](https://www.npmjs.com/package/grunt-express-server)
 - Run predefined tasks whenever watched file patterns are added, changed or deleted | [grunt-contrib-watch](https://www.npmjs.com/package/grunt-contrib-watch)
