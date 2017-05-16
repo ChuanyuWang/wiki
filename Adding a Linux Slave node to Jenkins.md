@@ -92,6 +92,7 @@ Refer to [link](https://adamwright.wordpress.com/2013/04/15/how-to-fix-server-re
 ```
 openssl rand -base64 6 | tee -a ~joe/.password | passwd --stdin joe
 ```
+This will create the user joe, assign it a random password, and store the same password in ~joe/.password, where joe will be able to see it.
 * How to add user to wheel group
 ```
 # usermod -aG wheel USERNAME
