@@ -88,3 +88,11 @@ service sshd restart
 ```
 * How To Fix "Server refused our key" Error in CentOS 6   
 Refer to [link](https://adamwright.wordpress.com/2013/04/15/how-to-fix-server-refused-our-key-error-in-centos-6/), try below command `restorecon -R -v /home/jenkins/.ssh`
+* How to generate random password for user
+```
+openssl rand -base64 6 | tee -a ~joe/.password | passwd --stdin joe
+```
+* How to add user to wheel group
+```
+# usermod -aG wheel USERNAME
+```
